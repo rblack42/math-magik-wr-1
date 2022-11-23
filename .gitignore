@@ -1,0 +1,15 @@
+# Mac
+.DS_Store
+
+# Vim
+*~
+*.swp
+
+# Python
+.venv
+__pycache__
+.pytest.cache
+
+# docs
+book/_build
+./**/.ipynb_checkpoints

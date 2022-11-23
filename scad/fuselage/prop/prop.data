@@ -1,0 +1,48 @@
+//#####################################
+// prop-blade-data.scad
+// (c) 2021 by Roie R. Black
+//*************************************
+include <MMlib/colors.scad>
+include <../../constraints.data>
+
+// Propeller dimensions
+prop_radius = max_prop_diameter/2;
+prop_pitch_angle = 40;
+prop_blade_offset = 0;
+
+// prop blade dimensions
+prop_blade_thickness = 1/64;
+prop_max_chord = 1;
+
+// prop form dimensions
+prop_form_radius = 1.5;
+prop_form_height = prop_radius + 2;
+prop_form_angle = 15;
+
+prop_spar_inner_radius = 1/32;
+prop_spar_outer_radius = 1/64;
+prop_spar_length = 1;
+
+// prop elliptic form data
+s = prop_radius - 0.5;
+c = 1.0;
+f = 2/3;
+s1 = 1;
+s2 = s - s1;
+s3 = 0.5;
+s4 = 0.5;
+
+prop_blade_color = WOOD_Balsa;
+density = 4;
+
+//-------------------------------------
+// calculated by analysis
+prop_forward_x = -1.3287;
+
+//------------------------------------
+// positioning data
+
+pos_blade1 = [0,0,prop_blade_offset,0,0,prop_pitch_angle];
+pos_blade2 = [0,0,-prop_blade_offset,180,0,-prop_pitch_angle];
+
+pos_wire_shaft = [-1/64,0,0];

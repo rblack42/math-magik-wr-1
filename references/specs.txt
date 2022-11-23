@@ -1,0 +1,7 @@
+wr-1-specs = {
+	length: 17' 2"
+	wingspan = 20'
+	height = 4' 4"
+}
+
+paper_scale = 8/3.515 = 2.276

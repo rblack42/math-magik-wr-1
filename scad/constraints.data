@@ -1,0 +1,9 @@
+//###############################
+// constraints.data
+// (c) 2022 by Roie R. Black
+//*******************************
+
+max_overall_length = 13.5;
+max_projected_wing_span = 16;
+max_prop_diameter = 7;
+
