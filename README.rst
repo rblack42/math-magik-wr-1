@@ -23,6 +23,6 @@ working on my Private Polio't License, I soloed at that airport as well.
 
 Fond memories!
 
-..  image:: assets/images/rLloving-WR-1-Love.jpg
+..  image:: assets/images/Loving-WR-1-Love.jpg
     :width: 500
     :align: center
